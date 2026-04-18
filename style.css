@@ -8,19 +8,22 @@
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
+    color: rgb(39, 23, 61);
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(236, 234, 234);
 }
 
 header {
     width: 100%;
     padding: 2em;
-    background-color: rgb(202, 202, 255);
+    background-color: rgb(214, 145, 67);
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -31,7 +34,7 @@ a {
 }
 
 a:hover {
-    color: rgb(0, 119, 255);
+    color:  rgb(88, 60, 128);
 }
 
 main {
@@ -55,6 +58,7 @@ section.title h1 {
 h3 {
     text-align: center;
     font-size: 36px;
+    margin-bottom: .5em;
 }
 
 footer {
